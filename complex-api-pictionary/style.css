@@ -1,0 +1,32 @@
+body::after{
+  background-image: url("vocabulary.jpg");
+  content: "";
+  background-position: center;
+  background-size: contain;
+  opacity: 0.199;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;z-index: -1;
+  background-repeat: no-repeat;
+}
+
+body{
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h1{
+  margin-top: 15%;
+}
+
+p{
+  width: 50%;
+  margin-left: 25%;
+}
+
+img{
+  height: 300px;
+}
